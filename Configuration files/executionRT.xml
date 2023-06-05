@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<execution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../XSD/execution.xsd">
+  <NMSmodel>
+     <type>
+        <realTime>
+        	<openLoop/>
+        </realTime>
+     </type>
+
+     <tendon>
+          <stiff/>
+     </tendon>
+
+     <activation>
+          <exponential/>
+     </activation>
+  	 <curve>
+  		<online/>
+  	 </curve>
+  </NMSmodel>
+  
+  <ConsumerPlugin>
+  
+	<EMGDevice>./bin/Win/Debug/emg_0_plugins.dll</EMGDevice>
+	<EMGDeviceFile>executionEMG.xml</EMGDeviceFile>
+	
+	<AngleDevice>./bin/Win/Debug/angle_0_plugins.dll</AngleDevice>
+	<AngleDeviceFile>executionIK.xml</AngleDeviceFile>
+
+	<TorqueDevice/>
+	<TorqueDeviceFile/>
+	
+    <ComsumerPort>351</ComsumerPort>
+
+  </ConsumerPlugin>
+  <NameOfSubject>lumbarModel</NameOfSubject>
+</execution>
