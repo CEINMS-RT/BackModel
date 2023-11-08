@@ -22,10 +22,10 @@
   <ConsumerPlugin>
   
 	<EMGDevice>./bin/Win/Debug/emg_0_plugins.dll</EMGDevice>
-	<EMGDeviceFile>executionEMG.xml</EMGDeviceFile>
+	<EMGDeviceFile>cfg/BackModel/Configuration files/executionEMG.xml</EMGDeviceFile>
 	
 	<AngleDevice>./bin/Win/Debug/angle_0_plugins.dll</AngleDevice>
-	<AngleDeviceFile>executionIK.xml</AngleDeviceFile>
+	<AngleDeviceFile>cfg/BackModel/Configuration files/executionIK.xml</AngleDeviceFile>
 
 	<TorqueDevice/>
 	<TorqueDeviceFile/>
