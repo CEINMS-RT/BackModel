@@ -43,7 +43,7 @@
     	<plateForceBody> calcn_r calcn_l</plateForceBody>
     </id>
   
-    <OsimFile>../OpenSim model/lumbarModel_scaled.osim</OsimFile> <!-- RT_scaled_noKnuckles_noKC or RT_scaled_01062022-->
+    <OsimFile>cfg/BackModel/OpenSim model/lumbarModel_scaled.osim</OsimFile> <!-- RT_scaled_noKnuckles_noKC or RT_scaled_01062022-->
 	<LabFile>lab_lowWeight.xml</LabFile> <!--> WRlab_extended or LopesLab_extended <-->
     <TranslateFile>cfg/Alejandro/gait2392_simbody_marker.txt</TranslateFile>
     <ip>localhost</ip>
