@@ -1,3 +1,5 @@
+<img src="https://github.com/CEINMS-RT/ceinmsrt-core-cpp/blob/main/logo-ceinms-rt-white-v.png" width="50%" alt="CEINMS-RT logo">
+
 Here, you can find small explanation of all the included folders and files: 
 
 NOTE: TO CHECK THE OUTPUT YOU MUST CAN REPROCESSED THE DATA USING THE FOLLOWING COMMAND:
